@@ -1,0 +1,21 @@
+{
+  "deviceName": "iphone12-back",
+  "approximate": true,
+  "imageSize": [720, 1280],
+  "K": {
+    "fx": 1140,
+    "fy": 1140,
+    "cx": 360,
+    "cy": 640
+  },
+  "dist": {
+    "k1": 0,
+    "k2": 0,
+    "p1": 0,
+    "p2": 0,
+    "k3": 0
+  },
+  "rms": 0.0,
+  "date": "2026-11-23",
+  "note": "校正前の仮の値（iPhone 12 の外カメ（背面の標準広角）・26mm相当・縦置き720×1280の概算。approx-iphone15.json の焦点距離を24mm→26mmで換算）。動作確認用。計測の前に、外カメで撮った校正画像から tools/calibrate_intrinsics.py --device iphone12-back で求めた値で上書きすること。"
+}
